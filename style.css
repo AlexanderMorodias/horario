@@ -1,0 +1,61 @@
+/* Estilos básicos para el horario */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#horario {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    white-space: nowrap;
+}
+
+#horario th,
+#horario td {
+    height: 70px;
+    min-width: 50px;
+    width: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.168);
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(171, 216, 171);
+}
+
+
+/* Estilos para las celdas del horario ocupadas por asignaturas */
+
+#horario td.asignatura {
+    height: 70px;
+    width: 140px;
+    background-color: lightblue;
+}
+
+
+/* Estilos para el formulario de agregar una asignatura */
+
+#form-agregar {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#form-agregar label {
+    width: 100%;
+    height: 30px;
+}
+
+.formulario {
+    border: 1px solid black;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 50px 50px;
+    align-items: center;
+    justify-content: space-evenly;
+}
